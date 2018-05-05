@@ -1,0 +1,32 @@
+{
+  "name": "kieu-api",
+  "version": "0.0.1",
+  "description": "A JSON API for the Kieu Salon App.",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-bearer-token": "^2.1.1",
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0",
+    "mongoose": "<=4.10.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewstewart/kieu-api.git"
+  },
+  "author": "Matthew Stewart",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/matthewstewart/kieu-api/issues"
+  },
+  "homepage": "https://github.com/matthewstewart/kieu-api#readme"
+}
